@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import poem from "./poem";
 
+// TODO: Use real API - https://www.dictionaryapi.com/products/api-collegiate-dictionary.htm
 const CDN = "https://media.merriam-webster.com/audio/prons/en/us/mp3/";
 
 function pronounceWord(text) {
